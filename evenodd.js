@@ -1,8 +1,11 @@
-var a = 11
+var a = 50;
 
-if(a%2===0){
+if(a === 0){
+    console.log("Zero")
+}
+else if(a%2 === 0){
     console.log("Even")
 }
 else{
-    console.log("odd")
+    console.log("Odd")
 }
